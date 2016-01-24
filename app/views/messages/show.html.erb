@@ -1,0 +1,32 @@
+<div class="container" id="">
+		<div class="col-md-7, col-md-offset-1">
+			<h2 id="message"><%= @message.title %></h2>
+			 <p><%= @message.description %></p>
+			   <p>Vented by <%=@message.user.email %> <%= time_ago_in_words(@message.created_at) %> <p/>
+			<br>
+	  
+
+		   <h4>Replies to poster</h4>
+		   <%= render @message.comments %>
+
+		  <h5>Reply:</h5>
+		  	<%=render 'comments/form' %>	
+		 
+           <br>
+           <br>
+			<%= link_to "Main", messages_path %> 
+
+		    <% if user_signed_in? %>
+			<% if @message.user_id == current_user.id %>
+
+			<%= link_to "Edit", edit_message_path(@message) %> 
+			<%= link_to "Delete", message_path(@message), method: :delete, data: { confirm:"Second thoughts? Delete??"} %> 
+		   
+		   <% end %>
+		<% end %>
+
+	</div>
+		 
+		<!--    this is linking to the edit destination message path, with respect to the current instance of the message (@message) -->
+
+</div>

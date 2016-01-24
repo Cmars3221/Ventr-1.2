@@ -1,0 +1,25 @@
+<div class="container" id="div-box">
+
+	<div class="row">
+			<div class="col-md-6, col-md-offset-2">
+
+			<% @messages.each do |message| %>
+
+				<h3 class="post-title"><%= message.title %></h3>
+				 <%= link_to "View", message_path(message), class: "btn btn-md btn-default" %>
+			         <!-- this anchor link attaches a class in this format -->
+				 <% end %>
+
+				<br>
+			    <hr>
+			<%= link_to "New Vent", new_message_path, class: "btn btn-lg btn-success" %>
+
+			<br>
+			<br>
+			<br>
+
+			</div>
+
+			 <!-- link anchor type for rails. -->
+	</div>
+</div>
