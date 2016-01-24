@@ -37878,3 +37878,998 @@ Processing by MessagesController#index as HTML
   [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
   Rendered messages/index.html.erb within layouts/application (2.3ms)
 Completed 200 OK in 223ms (Views: 222.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:29:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.6ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
+  Rendered messages/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 989ms (Views: 961.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-23 19:29:37 -0500
+Processing by MessagesController#splash as HTML
+  Rendered messages/splash.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 226ms (Views: 225.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:29:40 -0500
+Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  ORDER BY created_at DESC[0m
+  Rendered messages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 238ms (Views: 236.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:29:43 -0500
+Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 232ms (Views: 230.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:29:44 -0500
+Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  ORDER BY created_at DESC[0m
+  Rendered messages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 222ms (Views: 221.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:29:45 -0500
+Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.4ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 231ms (Views: 229.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:29:45 -0500
+Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.4ms)[0m  [1mSELECT "messages".* FROM "messages"  ORDER BY created_at DESC[0m
+  Rendered messages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 265ms (Views: 263.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:29:45 -0500
+Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.4ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
+  Rendered messages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 236ms (Views: 235.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:29:45 -0500
+Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  ORDER BY created_at DESC[0m
+  Rendered messages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 264ms (Views: 262.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:29:47 -0500
+Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
+  Rendered messages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 244ms (Views: 240.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:29:50 -0500
+Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  ORDER BY created_at DESC[0m
+  Rendered messages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 214ms (Views: 213.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/application.self-f58207d843808a5960765f40509027c96af2eba44d9f8a9ee08dba4bf53d303f.css?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 19:29:50 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:29:51 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:29:51 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-01-23 19:29:51 -0500
+
+
+Started GET "/" for ::1 at 2016-01-23 19:29:52 -0500
+Processing by MessagesController#splash as HTML
+  Rendered messages/splash.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 235ms (Views: 234.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:30:14 -0500
+Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
+  Rendered messages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 348ms (Views: 347.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/messages/10" for ::1 at 2016-01-23 19:30:18 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMessage Load (0.5ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.9ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?[0m  [["message_id", 10]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered comments/_comment.html.erb (6.9ms)
+  Rendered comments/_form.html.erb (90.2ms)
+  Rendered messages/show.html.erb within layouts/application (190.1ms)
+Completed 200 OK in 614ms (Views: 567.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/messages/8" for ::1 at 2016-01-23 19:30:21 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?[0m  [["message_id", 8]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (146.8ms)
+  Rendered messages/show.html.erb within layouts/application (153.7ms)
+Completed 200 OK in 772ms (Views: 768.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/messages/new" for ::1 at 2016-01-23 19:30:25 -0500
+Processing by MessagesController#new as HTML
+Completed 401 Unauthorized in 46ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-01-23 19:30:25 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (54.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (289.5ms)
+Completed 200 OK in 798ms (Views: 792.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-01-23 19:30:29 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4EQeP4YysQ70PxkYVf4CpFGwbiC8PvTw/vnauAoQtGJcv5JP77DPPpguB+2cMnPqXVjLuVCoywaOAPAOA3sQxg==", "user"=>{"email"=>"tester@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "tester@test.com"]]
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.8ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4EQeP4YysQ70PxkYVf4CpFGwbiC8PvTw/vnauAoQtGJcv5JP77DPPpguB+2cMnPqXVjLuVCoywaOAPAOA3sQxg==", "user"=>{"email"=>"tester@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (13.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 433ms (Views: 282.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-01-23 19:30:38 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/rxl7Ttme3O7LH4oYfxC8/037MPve8Elpm/ByGnxKX9CR+mdUuQFQ9c9YN2oMDO98d9JWgPt/tPWlut+YJqN2w==", "user"=>{"email"=>"john@derk.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "john@derk.com"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-12-27 20:02:06.463383"], ["current_sign_in_at", "2016-01-24 00:30:38.982912"], ["sign_in_count", 9], ["updated_at", "2016-01-24 00:30:38.985126"], ["id", 1]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 117ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/messages/new" for ::1 at 2016-01-23 19:30:39 -0500
+Processing by MessagesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered messages/_form.html.erb (6.2ms)
+  Rendered messages/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 247ms (Views: 242.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/messages" for ::1 at 2016-01-23 19:31:22 -0500
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MEbakFs3/I3SeL0U6woTWCbstsYxH9lYYLvn1PXvECBAG+9ynriH2JiPBbfCPZKMu21uZosELbdnjbUL2kk7YA==", "message"=>{"title"=>"Ok. Blizzard? Im not impressed.", "description"=>"I saw a bunch of people outside and the mayor issued a city-wide ban on everything...what the hell? Why are people on the road.  Don't they know its dangerous out there.  Like cmon..."}, "commit"=>"Create Message"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "messages" ("title", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Ok. Blizzard? Im not impressed."], ["description", "I saw a bunch of people outside and the mayor issued a city-wide ban on everything...what the hell? Why are people on the road.  Don't they know its dangerous out there.  Like cmon..."], ["user_id", 1], ["created_at", "2016-01-24 00:31:22.403266"], ["updated_at", "2016-01-24 00:31:22.403266"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-23 19:31:22 -0500
+Processing by MessagesController#splash as HTML
+  Rendered messages/splash.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 262ms (Views: 260.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:31:32 -0500
+Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  ORDER BY created_at DESC[0m
+  Rendered messages/index.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 242ms (Views: 240.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/messages/11" for ::1 at 2016-01-23 19:31:38 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?[0m  [["message_id", 11]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (4.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered messages/show.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 253ms (Views: 250.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/messages/11/edit" for ::1 at 2016-01-23 19:31:45 -0500
+Processing by MessagesController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered messages/_form.html.erb (6.8ms)
+  Rendered messages/edit.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 253ms (Views: 249.7ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/messages/11" for ::1 at 2016-01-23 19:31:50 -0500
+Processing by MessagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+xPdT75YWlrIZ34d2H/cDH8I+LqA1vXo1ch0cLQTi6WLTuite9chD4KQxr7xSF3Y4okgGjrNAQfS/iavm7Wg5Q==", "message"=>{"title"=>"Ok. Blizzard? Im not impressed.", "description"=>"I saw a bunch of people outside and the mayor issued a city-wide ban on everything...what the hell? Why are people on the road.  Don't they know its dangerous out there.  Like cmon..."}, "commit"=>"Update Message", "id"=>"11"}
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/messages/11
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/messages/11" for ::1 at 2016-01-23 19:31:50 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?[0m  [["message_id", 11]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (4.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered messages/show.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 227ms (Views: 225.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:31:54 -0500
+Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  ORDER BY created_at DESC[0m
+  Rendered messages/index.html.erb within layouts/application (14.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 241ms (Views: 240.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/messages/11" for ::1 at 2016-01-23 19:35:27 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mMessage Load (0.8ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?[0m  [["message_id", 11]]
+  Rendered collection (0.1ms)
+  Rendered comments/_form.html.erb (14.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered messages/show.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 357ms (Views: 333.2ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/messages/11/edit" for ::1 at 2016-01-23 19:35:30 -0500
+Processing by MessagesController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered messages/_form.html.erb (6.6ms)
+  Rendered messages/edit.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 275ms (Views: 264.2ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/messages/11" for ::1 at 2016-01-23 19:35:35 -0500
+Processing by MessagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bwOB0yLQ0oEVN0rd+W+5KKEmFDZY58amWLy9HqE4/nQfXrQx51+p1F/A8n7QWDj8PKfMluL8Mklfiu/Bjp7VNA==", "message"=>{"title"=>"Ok. Blizzard? Im not impressed.", "description"=>"I saw a bunch of people outside and the mayor issued a city-wide ban on everything...what the hell? Why are people on the road.  Don't they know its dangerous out there.  Like cmon...."}, "commit"=>"Update Message", "id"=>"11"}
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "messages" SET "description" = ?, "updated_at" = ? WHERE "messages"."id" = ?  [["description", "I saw a bunch of people outside and the mayor issued a city-wide ban on everything...what the hell? Why are people on the road.  Don't they know its dangerous out there.  Like cmon...."], ["updated_at", "2016-01-24 00:35:35.918162"], ["id", 11]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 13ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:35:35 -0500
+Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
+  Rendered messages/index.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 271ms (Views: 268.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/messages/new" for ::1 at 2016-01-23 19:35:41 -0500
+Processing by MessagesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered messages/_form.html.erb (5.9ms)
+  Rendered messages/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 252ms (Views: 245.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/messages" for ::1 at 2016-01-23 19:35:58 -0500
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sJ0S7Z5e/mKjHzS6ZuTrX1LT/NRFp4b1D7iTwhk+PTfAwCcPW9GFN+nojBlP02qLz1IkdP+8choIjsEdNpgWdw==", "message"=>{"title"=>"Ok. Follow up...", "description"=>"I'm not going to work tomorrow..."}, "commit"=>"Create Message"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "messages" ("title", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Ok. Follow up..."], ["description", "I'm not going to work tomorrow..."], ["user_id", 1], ["created_at", "2016-01-24 00:35:58.668905"], ["updated_at", "2016-01-24 00:35:58.668905"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 9ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:35:58 -0500
+Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  ORDER BY created_at DESC[0m
+  Rendered messages/index.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 246ms (Views: 244.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/messages/12" for ::1 at 2016-01-23 19:36:16 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?[0m  [["message_id", 12]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (5.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered messages/show.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 247ms (Views: 245.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/messages/12" for ::1 at 2016-01-23 19:39:26 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?[0m  [["message_id", 12]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (4.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered messages/show.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 258ms (Views: 256.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/application.self-f58207d843808a5960765f40509027c96af2eba44d9f8a9ee08dba4bf53d303f.css?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-01-23 19:39:26 -0500
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:39:37 -0500
+Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  ORDER BY created_at DESC[0m
+  Rendered messages/index.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 243ms (Views: 241.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:43:05 -0500
+Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  ORDER BY created_at DESC[0m
+  Rendered messages/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.3ms)
+
+SyntaxError (/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:27: syntax error, unexpected keyword_class, expecting ')'
+...ion_path, method: :delete class"getout");@output_buffer.safe...
+...                               ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:27: syntax error, unexpected ')', expecting :: or '[' or '.'
+... method: :delete class"getout");@output_buffer.safe_append='...
+...                               ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:28: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;						      	     else   
+         						      	         ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;						      	      end 	 
+         						      	         ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:33: syntax error, unexpected '<', expecting keyword_end
+...pend='						        '.freeze; <style> .getout{display:none};...
+...      						                   ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:33: syntax error, unexpected '<', expecting keyword_end
+...<style> .getout{display:none};</style> ;@output_buffer.safe_...
+...                               ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:33: unknown regexp option - p
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:33: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:36: unknown regexp options - dv
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+			   <p class="notice">'.freeze;@ou...
+			    ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:40: unknown regexp option - p
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:46: syntax error, unexpected '<', expecting keyword_end
+		<br>
+		 ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:53: syntax error, unexpected '<'
+				<p>&copy; 2015 All rights reserved</p>
+				 ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:53: syntax error, unexpected tCONSTANT, expecting keyword_end
+				<p>&copy; 2015 All rights reserved</p>
+				                  ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:54: unknown regexp options - dv
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:55: syntax error, unexpected '<'
+	</footer>
+	 ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:56: unknown regexp options - bdy
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:60: syntax error, unexpected '<'
+</html>
+ ^
+/Users/Aries/Desktop/Ventr chages/app/views/layouts/application.html.erb:60: unterminated regexp meets end of file):
+  app/views/layouts/application.html.erb:27: syntax error, unexpected keyword_class, expecting ')'
+  app/views/layouts/application.html.erb:27: syntax error, unexpected ')', expecting :: or '[' or '.'
+  app/views/layouts/application.html.erb:28: syntax error, unexpected keyword_else, expecting ')'
+  app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+  app/views/layouts/application.html.erb:33: syntax error, unexpected '<', expecting keyword_end
+  app/views/layouts/application.html.erb:33: syntax error, unexpected '<', expecting keyword_end
+  app/views/layouts/application.html.erb:33: unknown regexp option - p
+  app/views/layouts/application.html.erb:33: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/layouts/application.html.erb:36: unknown regexp options - dv
+  app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:40: unknown regexp option - p
+  app/views/layouts/application.html.erb:46: syntax error, unexpected '<', expecting keyword_end
+  app/views/layouts/application.html.erb:53: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:53: syntax error, unexpected tCONSTANT, expecting keyword_end
+  app/views/layouts/application.html.erb:54: unknown regexp options - dv
+  app/views/layouts/application.html.erb:55: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:56: unknown regexp options - bdy
+  app/views/layouts/application.html.erb:60: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:60: unterminated regexp meets end of file
+
+
+  Rendered /Users/Aries/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.6ms)
+  Rendered /Users/Aries/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /Users/Aries/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Aries/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (123.8ms)
+
+
+Started GET "/messages/12" for ::1 at 2016-01-23 19:43:33 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mMessage Load (0.2ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?  [["message_id", 12]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (3.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered messages/show.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 268ms (Views: 266.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/application.self-f58207d843808a5960765f40509027c96af2eba44d9f8a9ee08dba4bf53d303f.css?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-01-23 19:43:34 -0500
+
+
+Started GET "/messages/12" for ::1 at 2016-01-23 19:45:21 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mMessage Load (0.2ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?  [["message_id", 12]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (4.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered messages/show.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 222ms (Views: 219.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:45:21 -0500
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/application.self-f58207d843808a5960765f40509027c96af2eba44d9f8a9ee08dba4bf53d303f.css?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-01-23 19:45:22 -0500
+
+
+Started GET "/messages/12" for ::1 at 2016-01-23 19:45:37 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mMessage Load (0.2ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?  [["message_id", 12]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (4.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered messages/show.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 231ms (Views: 229.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/application.self-f58207d843808a5960765f40509027c96af2eba44d9f8a9ee08dba4bf53d303f.css?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 19:45:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 19:45:38 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:45:38 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:45:38 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-01-23 19:45:38 -0500
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:45:44 -0500
+Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
+  Rendered messages/index.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 268ms (Views: 266.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/messages/11" for ::1 at 2016-01-23 19:45:47 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mMessage Load (0.4ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?  [["message_id", 11]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (4.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered messages/show.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 230ms (Views: 226.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/messages/9" for ::1 at 2016-01-23 19:45:50 -0500
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mMessage Load (0.8ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.6ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."message_id" = ?  [["message_id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.erb (5.3ms)
+  Rendered comments/_form.html.erb (4.7ms)
+  Rendered messages/show.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 250ms (Views: 247.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/messages/new" for ::1 at 2016-01-23 19:45:55 -0500
+Processing by MessagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered messages/_form.html.erb (6.1ms)
+  Rendered messages/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 248ms (Views: 244.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/messages/new" for ::1 at 2016-01-23 19:46:14 -0500
+Processing by MessagesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered messages/_form.html.erb (5.6ms)
+  Rendered messages/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 263ms (Views: 259.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:46:14 -0500
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:46:14 -0500
+
+
+Started GET "/assets/application.self-f58207d843808a5960765f40509027c96af2eba44d9f8a9ee08dba4bf53d303f.css?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:46:15 -0500
+
+
+Started GET "/messages/new" for ::1 at 2016-01-23 19:46:43 -0500
+Processing by MessagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered messages/_form.html.erb (6.9ms)
+  Rendered messages/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 280ms (Views: 277.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/messages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/application.self-f58207d843808a5960765f40509027c96af2eba44d9f8a9ee08dba4bf53d303f.css?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-01-23 19:46:44 -0500
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:48:44 -0500
+Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.5ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
+  Rendered messages/index.html.erb within layouts/application (5.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 339ms (Views: 336.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/messages" for ::1 at 2016-01-23 19:48:50 -0500
+Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  ORDER BY created_at DESC
+  Rendered messages/index.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 255ms (Views: 253.7ms | ActiveRecord: 0.5ms)
