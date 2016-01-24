@@ -1,19 +1,20 @@
 
 VENTR
 
-A social media posting site for relevant topics and whatever's important to you.
+A posting site for relevant topics and whatever's important to you.
 
 Having a bad day? Share whats on your mind.
 
-Hate takeing public tranpsortation? Share.
+Hate taking public transportation? Share it.
 
-Love what's going on around your parts? Let the world know.
+Love what's going on around your parts? Let the world know...
 
 Postings and comments allow dialogue, debates and much more.
 
-Final features of this app is still in deveopment phase, future features will be announced when released.
 
-To Run locally:
+
+
+To view the site locally:
 
 *Download zip files to your local machine
 
